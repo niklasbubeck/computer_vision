@@ -1,0 +1,9 @@
+numpy
+scipy
+opencv-python
+imageio
+matplotlib
+mpld3
+imutils
+torch
+pdb

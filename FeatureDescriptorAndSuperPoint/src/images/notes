@@ -1,0 +1,4 @@
+Image sources:
+      * carla_x.png are taken from GN-Net Benchmark v1.4 https://vision.in.tum.de/research/vslam/gn-net
+      * checkerboard.png - from https://markhedleyjones.com/projects/calibration-checkerboard-collection 
+      * mountain_x.png - https://github.com/daeyun/Image-Stitching/tree/master/img/hill

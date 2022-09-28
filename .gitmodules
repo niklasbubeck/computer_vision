@@ -1,0 +1,3 @@
+[submodule "FeatureDescriptorAndSuperPoint/src/SuperPointPretrainedNetwork"]
+	path = FeatureDescriptorAndSuperPoint/src/SuperPointPretrainedNetwork
+	url = https://github.com/rpautrat/SuperPoint
