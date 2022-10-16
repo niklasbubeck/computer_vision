@@ -1,4 +1,4 @@
-# ss22 4d Panoptic Segmentation
+# Flow Into 4D Panoptic Segmentation
 
 The aim of this project lies in estimating semantic labels and instance ids for each point in a pointcloud sequence, and set up a time dependency, such that instances stay the same over time. 
 
