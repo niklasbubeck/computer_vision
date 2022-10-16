@@ -1,0 +1,30 @@
+data_module_params:
+  batch_size: 3
+  data_dir: /home/niklas/Documents/datasets/semanticKitti/dataset/
+  num_workers: 8
+  preproc: adaptive
+  randomize: false
+  remove_classes:
+  - unlabeled
+  - road
+  - parking
+  - other-ground
+  - building
+  - vegetation
+  - terrain
+  - other-object
+  sequences:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  split_in_pct: 0.7
+model_module_params:
+  learning_rate: 5.0e-06

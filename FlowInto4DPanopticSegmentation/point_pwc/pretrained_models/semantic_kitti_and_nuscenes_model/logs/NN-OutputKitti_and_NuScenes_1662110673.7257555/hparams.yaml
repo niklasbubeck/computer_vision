@@ -1,0 +1,46 @@
+data_module_params:
+  batch_size: 3
+  data_dir_kitti: /media/niklas/Extreme SSD/semanticKitti/dataset
+  data_dir_nuscenes: /media/niklas/Extreme SSD/data/sets/nuscenes
+  dataset: ProcessedNuScenesAndKittiDataset
+  kitti_sequences:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 9
+  - 10
+  num_workers: 8
+  nuscenes_sequences: 25000
+  nuscenes_version: v1.0-trainval
+  preproc: adaptive
+  randomize: false
+  remove_classes_kitti:
+  - outlier
+  - unlabeled
+  - road
+  - parking
+  - other-ground
+  - building
+  - sidewalk
+  - vegetation
+  - terrain
+  - other-object
+  remove_classes_nuscenes:
+  - noise
+  - static_object_bicycle_rack
+  - flat_driveable_surface
+  - flat_sidewalk
+  - flat_other
+  - flat_terrain
+  - static_other
+  - static_manmade
+  - static_vegetation
+  - vehicle_ego
+  split_in_pct: 0.8
+model_module_params:
+  learning_rate: 5.0e-06

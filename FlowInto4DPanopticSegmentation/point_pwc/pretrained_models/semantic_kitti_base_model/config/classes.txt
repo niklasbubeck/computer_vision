@@ -1,0 +1,1 @@
+["unlabeled", "road", "parking", "other-ground", "building", "vegetation", "terrain", "other-object"]

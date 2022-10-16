@@ -1,0 +1,10 @@
+# ninja log v5
+0	6778	1660348979535355604	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/group_points.o	eee131626b6c86a3
+0	7074	1660348979847354993	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query.o	6bfd1a5aa0343a17
+0	7123	1660348979895354900	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/sampling.o	b0cbb4345fe4d20
+1	7335	1660348980107354485	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate.o	439678c711cfa44e
+1	15664	1660348988435338206	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/interpolate_gpu.o	6315e3b04dd1904c
+0	15873	1660348988643337799	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/ball_query_gpu.o	45325549efeca9b4
+1	15978	1660348988751337587	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/group_points_gpu.o	891cab0ff027f249
+5	16577	1660348989347336422	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/sampling_gpu.o	5b2fd7c51296f9b3
+0	16857	1660348989627335875	/home/niklas/Desktop/ss22-4d-panoptic-segmentation/src/pointnet2/build/temp.linux-x86_64-3.6/src/pointnet2_api.o	aa4f44a2197e7477

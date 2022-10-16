@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/js/tabulator.min.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/css/bulma/tabulator_bulma.min.css">
+</head>
+<body>
+  <div id="classwise_results"></div>
+
+<script>
+  let table_data = [{"class": "car", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.000486"}, {"class": "truck", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.000145"}, {"class": "bicycle", "pq": "0.00129", "sq": "1.0", "rq": "0.00129", "iou": "0.000361"}, {"class": "motorcycle", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "2.07e-05"}, {"class": "other-vehicle", "pq": "0.000357", "sq": "0.576", "rq": "0.00062", "iou": "0.000625"}, {"class": "person", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "bicyclist", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "motorcyclist", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.000576"}, {"class": "road", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "sidewalk", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "parking", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "other-ground", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "building", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "vegetation", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "trunk", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "terrain", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "fence", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "pole", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}, {"class": "traffic-sign", "pq": "0.0", "sq": "0.0", "rq": "0.0", "iou": "0.0"}]
+
+
+  table = new Tabulator("#classwise_results", {
+    layout: "fitData",
+    data: table_data,
+    columns: [{title: "Class", field:"class", width:200}, 
+              {title: "PQ", field:"pq", width:100, align: "center"},
+              {title: "SQ", field:"sq", width:100, align: "center"},
+              {title: "RQ", field:"rq", width:100, align: "center"},
+              {title: "IoU", field:"iou", width:100, align: "center"}]
+  });
+</script>
+</body>
+</html>
